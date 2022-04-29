@@ -106,7 +106,6 @@ h2{
     border-bottom: 7px solid #7d4427;
     */
     letter-spacing: 1px;
-    text-transform: uppercase;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
 }
