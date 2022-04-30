@@ -9,7 +9,8 @@ const store = document.getElementById('name');
 // }
 // localStorage.clear()
 // localStorage.setItem('guest',JSON.stringify({
-//     name: 'Guest',
+//     firstName: 'Guest',
+    // lastName: 'Guest',
 //     email: 'unknown',
 //     password: 'unknown'
 // }))
@@ -29,7 +30,7 @@ class database {
             console.log(guest.name);
             return;
         }
-        store.insertAdjacentHTML('afterbegin',`${data.LastName}`);
+        store.insertAdjacentHTML('afterbegin',`${data.firstName}`);
         console.log(data.name);
     }
 }
